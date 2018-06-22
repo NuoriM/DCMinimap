@@ -44,14 +44,14 @@
    "Calcada": {
      "name": "Calcada.png",
      "x": 2084,
-     "y": 3274
+     "y": 3274,
      "width": 69,
      "height": 128
     },
    "ItalyBall": {
     "name": "ItalyBall.png",
     "x": -388,
-    "y": -510
+    "y": -510,
     "width": 63,
     "height": 63
    }
