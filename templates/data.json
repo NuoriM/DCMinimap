@@ -26,5 +26,19 @@
     "y": 3479,
     "width": 154,
     "height": 162
+   },
+   "TucanoZone": {
+    "name": "TucanoZone.png",
+    "x": 1983,
+    "y": 3168,
+    "width": 164,
+    "height": 106
+   },
+   "Ze": {
+    "name": "Ze.png",
+    "x": 1956,
+    "y": 3274,
+    "width": 128,
+    "height": 128
    }
 }
