@@ -252,11 +252,11 @@ function loadTemplates() {
     var x_right = x_window * 1 + minimap.width / zoomlevel / 2;
     var y_top = y_window * 1 - minimap.height / zoomlevel / 2;
     var y_bottom = y_window * 1 + minimap.height / zoomlevel / 2;
-    //console.log("x_left : " + x_left);
-    //console.log("x_right : " + x_right);
-    //console.log("y_top : " + y_top);
-    //console.log("y_bottom : " + y_bottom);
-    console.log(template_list);
+    console.log("x_left : " + x_left);
+    console.log("x_right : " + x_right);
+    console.log("y_top : " + y_top);
+    console.log("y_bottom : " + y_bottom);
+    //console.log(template_list);
     var keys = [];
     for (var k in template_list) keys.push(k);
     needed_templates = [];
@@ -268,8 +268,8 @@ function loadTemplates() {
         var temp_y = parseInt(template_list[template]["y"]) * 1;
         var temp_xr = parseInt(template_list[template]["x"]) + parseInt(template_list[template]["width"]);
         var temp_yb = parseInt(template_list[template]["y"]) + parseInt(template_list[template]["height"]);
-        // if (temp_xr <= x_left || temp_yb <= y_top || temp_x >= x_right || temp_y >= y_bottom)
-        //    continue
+         if (temp_xr <= x_left || temp_yb <= y_top || temp_x >= x_right || temp_y >= y_bottom)
+            continue
         if (!x_window.between(temp_x, temp_xr) && !y_window.between(temp_y, temp_yb))
             continue
         console.log("Template " + template + " is in range!");
