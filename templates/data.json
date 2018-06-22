@@ -1,0 +1,30 @@
+{
+  "AraraAzul2": {
+    "name": "AraraAzul2.png",
+    "x": 2041,
+    "y": 3084,
+    "width": 106,
+    "height": 84
+   },
+   "AraraAzul": {
+    "name": "AraraAzul.png",
+    "x": 1848,
+    "y": 3341,
+    "width": 108,
+    "height": 81
+   }
+    "CristoZone": {
+    "name": "CristoZone.png",
+    "x": 1956,
+    "y": 3402,
+    "width": 193,
+    "height": 77
+   }
+    "Kuruminha": {
+    "name": "Kur.png",
+    "x": 1995,
+    "y": 3479,
+    "width": 154,
+    "height": 162
+   }
+}
