@@ -40,5 +40,12 @@
     "y": 3274,
     "width": 128,
     "height": 128
+   },
+   "ItalyBall": {
+    "name": "ItalyBall.png",
+    "x": -388,
+    "y": -510,
+    "width": 63,
+    "height": 63
    }
 }
