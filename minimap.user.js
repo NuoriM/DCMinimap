@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         ODNZone Minimap
+// @name         DCZone Minimap
 // @namespace    http://tampermonkey.net/
 // @version      2.0
-// @description  ODNZone Minimap
+// @description  DCZone Minimap
 // @author       olegispe#2453 Edited by Obsidian
 // @match        https://pixelzone.io/*
 // @match        http://pixelzone.io/*
