@@ -11,6 +11,33 @@
 // @downloadURL  https://raw.githubusercontent.com/NuoriM/DCMinimap/blob/master/minimap.user.js
 // @grant        none
 // ==/UserScript==
+var abcd = true;
+document.onkeydown = function (e) {
+  e = e || window.event;
+  switch (e.which || e.keyCode) {
+        case 77 : // 77 = "M"
+        abcd = !abcd;
+      console.log(abcd);
+        if (abcd == true){
+          toggleShow()
+             document.getElementById("minimap-box").style.display = "block";
+             document.getElementById("minimap-config").style.display = "block";
+             document.getElementById("minimap-text").style.display = "none";
+             document.getElementById("minimap-text").style.cursor = "default";
+        }else if (abcd == false){
+          toggleShow()
+        document.getElementById("minimap-box").style.display = "none";
+        document.getElementById("minimap-config").style.display = "none";
+        document.getElementById("minimap-text").style.display = "block";
+        document.getElementById("minimap-text").innerHTML = "Mostrar mapa";
+        document.getElementById("minimap-text").style.cursor = "pointer";
+        }
+     break;
+    case 187:
+      console.log("Ainda em construção");
+      break;
+  }
+}
 
 Number.prototype.between = function(a, b) {
   var min = Math.min.apply(Math, [a, b]),
@@ -252,10 +279,10 @@ function loadTemplates() {
     var x_right = x_window * 1 + minimap.width / zoomlevel / 2;
     var y_top = y_window * 1 - minimap.height / zoomlevel / 2;
     var y_bottom = y_window * 1 + minimap.height / zoomlevel / 2;
-    console.log("x_left : " + x_left);
-    console.log("x_right : " + x_right);
-    console.log("y_top : " + y_top);
-    console.log("y_bottom : " + y_bottom);
+    //console.log("x_left : " + x_left);
+    //console.log("x_right : " + x_right);
+    //console.log("y_top : " + y_top);
+    //console.log("y_bottom : " + y_bottom);
     //console.log(template_list);
     var keys = [];
     for (var k in template_list) keys.push(k);
@@ -272,7 +299,7 @@ function loadTemplates() {
             continue
         if (!x_window.between(temp_x, temp_xr) && !y_window.between(temp_y, temp_yb))
             continue
-        console.log("Template " + template + " is in range!");
+        //console.log("Template " + template + " is in range!");
         // console.log(x_window, y_window);
         needed_templates.push(template);
     }
@@ -327,7 +354,7 @@ function drawTemplates() {
         var newheight = zoomlevel * image_list[template].height;
         var img = image_list[template];
         ctx_minimap.drawImage(img, xoff, yoff, newwidth, newheight);
-        console.log("Drawn!");
+        //console.log("Drawn!");
     }
 }
 
