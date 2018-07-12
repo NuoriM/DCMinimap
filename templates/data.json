@@ -62,11 +62,11 @@
     "width": 26,
     "height": 160
    },
-   "BCBallZone": {
-    "name": "BCBallZone.png",
-    "x": 3958,
-    "y": 1588,
-    "width": 105,
-    "height": 88
+   "BCZoneArea": {
+    "name": "BCZoneArea.png",
+    "x": 3743,
+    "y": 1320,
+    "width": 296,
+    "height": 340
    }
 }
