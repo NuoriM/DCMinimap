@@ -68,5 +68,12 @@
     "y": 1320,
     "width": 353,
     "height": 500
+   },
+   "BlackBrasilFlag": {
+    "name": "BlackBrasilFlag.png",
+    "x": 220,
+    "y": 2540,
+    "width": 707,
+    "height": 421
    }
 }
