@@ -83,6 +83,13 @@
     "width": 199,
     "height": 133
    },
+   "Escudinho": {
+    "name": "Escudinho.png",
+    "x": -675,
+    "y": 572,
+    "width": 40,
+    "height": 41
+   },
    "DiscordBC": {
     "name": "DiscordBC.png",
     "x": 1885,
