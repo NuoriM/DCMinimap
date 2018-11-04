@@ -48,13 +48,6 @@
      "width": 69,
      "height": 128
     },
-   "ItalyBall": {
-    "name": "ItalyBall.png",
-    "x": 447,
-    "y": -513,
-    "width": 63,
-    "height": 63
-   },
    "NuoriMObsName": {
     "name": "NM.png",
     "x": 1969,
@@ -68,13 +61,6 @@
     "y": 1320,
     "width": 353,
     "height": 500
-   },
-   "BlackBrasilFlag": {
-    "name": "BlackBrasilFlag.png",
-    "x": 220,
-    "y": 2540,
-    "width": 707,
-    "height": 421
    },
    "DcFlag": {
     "name": "DcFlag.png",
@@ -104,13 +90,6 @@
     "width": 321,
     "height": 237
    },
-   "SpfcTrabalho": {
-    "name": "SpfcTrabalho.png",
-    "x": 110,
-    "y": -1015,
-    "width": 172,
-    "height": 258
-   },
    "DC1": {
     "name": "DC1.png",
     "x": -366,
@@ -120,7 +99,7 @@
    },
    "HLEtfly": {
     "name": "HLEtfly.png",
-    "x": 958,
+    "x": 959,
     "y": -2706,
     "width": 484,
     "height": 202
