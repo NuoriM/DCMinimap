@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DC Zone Minimap NEW
 // @namespace    http://tampermonkey.net/
-// @version      2.0
+// @version      2.1
 // @description  DC Zone Minimap
 // @author       \
 // @match        https://pixelzone.io/*
