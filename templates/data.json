@@ -1,59 +1,10 @@
 {
-  "AraraAzul2": {
-    "name": "AraraAzul2.png",
-    "x": 2041,
-    "y": 3084,
-    "width": 106,
-    "height": 84
-   },
-   "AraraAzul": {
-    "name": "AraraAzul.png",
+   "artes": {
+    "name": "artes.png",
     "x": 1848,
-    "y": 3341,
-    "width": 108,
-    "height": 81
-   },
-   "CristoZone": {
-    "name": "CristoZone.png",
-    "x": 1956,
-    "y": 3402,
-    "width": 193,
-    "height": 77
-   },
-   "Kuruminha": {
-    "name": "Kur.png",
-    "x": 1995,
-    "y": 3479,
-    "width": 154,
-    "height": 162
-   },
-   "TucanoZone": {
-    "name": "TucanoZone.png",
-    "x": 1983,
-    "y": 3168,
-    "width": 164,
-    "height": 106
-   },
-   "Ze": {
-    "name": "Ze.png",
-    "x": 1956,
-    "y": 3274,
-    "width": 128,
-    "height": 128
-   },
-   "Calcada": {
-     "name": "Calcada.png",
-     "x": 2084,
-     "y": 3274,
-     "width": 69,
-     "height": 128
-    },
-   "NuoriMObsName": {
-    "name": "NM.png",
-    "x": 1969,
-    "y": 3479,
-    "width": 26,
-    "height": 160
+    "y": 3084,
+    "width": 301,
+    "height": 557
    },
    "BCZoneArea": {
     "name": "BCZoneArea.png",
@@ -68,13 +19,6 @@
     "y": 513,
     "width": 199,
     "height": 133
-   },
-   "Escudinho": {
-    "name": "Escudinho.png",
-    "x": -675,
-    "y": 572,
-    "width": 40,
-    "height": 41
    },
    "DiscordBC": {
     "name": "DiscordBC.png",
