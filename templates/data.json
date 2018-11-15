@@ -6,12 +6,12 @@
     "width": 301,
     "height": 557
    },
-   "BCZoneArea": {
-    "name": "BCZoneArea.png",
-    "x": 3743,
-    "y": 1320,
-    "width": 353,
-    "height": 500
+   "ZoneLogo": {
+    "name": "ZoneLogo.png",
+    "x": 1750,
+    "y": 3341,
+    "width": 98,
+    "height": 77
    },
    "DcFlag": {
     "name": "DcFlag.png",
@@ -19,13 +19,6 @@
     "y": 513,
     "width": 199,
     "height": 133
-   },
-   "DiscordBC": {
-    "name": "DiscordBC.png",
-    "x": 1885,
-    "y": 3422,
-    "width": 71,
-    "height": 33
    },
    "DC1": {
     "name": "DC1.png",
