@@ -20,12 +20,12 @@
     "width": 199,
     "height": 133
    },
-   "DC1": {
-    "name": "DC1.png",
-    "x": -366,
-    "y": -589,
-    "width": 91,
-    "height": 140
+   "GSTR": {
+    "name": "GSTR.png",
+    "x": 1836,
+    "y": 3422,
+    "width": 121,
+    "height": 61
    },
    "HLEtfly": {
     "name": "HLEtfly.png",
