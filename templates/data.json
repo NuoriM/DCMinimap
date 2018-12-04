@@ -47,5 +47,12 @@
     "y": 2320,
     "width": 134,
     "height": 261
+   },
+   "WakandaFlag": {
+    "name": "wakanda.png",
+    "x": 2161,
+    "y": -3858,
+    "width": 334,
+    "height": 226
    }
 }
