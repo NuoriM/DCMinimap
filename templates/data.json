@@ -54,5 +54,12 @@
     "y": -3858,
     "width": 334,
     "height": 226
+   },
+   "Starters1": {
+   "name": "Starters1.png",
+   "x": -1126, 
+   "y": 2470,
+   "width": 512,
+   "height": 216
    }
 }
